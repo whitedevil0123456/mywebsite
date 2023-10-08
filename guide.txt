@@ -1,0 +1,10 @@
+date of starting:-22/08/2023
+date of completion:-
+date of uploading:-
+build version:-
+features:-
+1)bugs fixing
+2)introduction of version information downside of website
+3)development of tuition webpage
+3.1)changing of website format(as in gkj sir app)
+3.2)introduction of class links 

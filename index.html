@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoaib- developer portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color:lavender;
+            font-size: 1.04rem;
+            
+            
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+
+        }
+        .firstsection>div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 3rem;
+        }
+        .leftsection .buttons{
+            padding: 50px;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background:#1e2167 ;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightsection img {
+            width: 80%;
+        }
+        .purple{
+            color: rgb(171, 113, 226);
+        }
+        #element{
+            color: rgb(171, 113, 226);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            
+        }
+        main hr{
+            border: 0;
+            background:#9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .secondsection>h1{
+            font-size: 1.0rem; 
+            margin: auto;
+            
+
+        }
+        /* .textgray{
+            color: grey;
+        }
+        .secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0 ;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 15px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+            
+        }
+        .image_top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .verticaltext{
+            /* position: relative; */
+            /* top: 75px;
+            width: 150px;
+            font-size: 14px;
+        } */
+        /* .verticaldesc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+            margin-bottom: 150px;
+            padding-bottom: 250px;
+        } */ 
+        footer{
+            background-color: #0e0e1a;
+            /* height: 233px; */
+        }
+        
+        .footer{
+            position: relative;
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div{
+            padding: 150px;
+            width: 130px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .footer-first{
+            text-decoration: none;
+        }
+        .grid1{
+            position: relative;
+            display: flex;
+            padding: 20px;
+            text-align: center;
+        }
+        .innerbox{
+            /* text-decoration: none; */
+            color: white;
+            animation-name: anime2;
+            animation-duration: 15s;
+        }@keyframes anime2 {
+            from{
+                color: #1e2167;
+                text-decoration: none;
+            }
+            to{
+                color: white;
+            }
+        }
+        .innerbox.a:hover{
+            color: aqua;
+        }
+        .box{
+            border: 2px solid red;
+            height: 60px;
+            width: 40%;
+            padding: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            background-color: aqua;
+            animation-name: anime1;
+            animation-duration: 15s;
+            text-decoration: none;
+        }
+        @keyframes anime1 {
+            from{
+                border-color: rgb(0, 0, 33);
+                color: rgb(0, 0, 33);
+                background-color: rgb(0, 0, 33);
+                color: #1e2167;
+                text-decoration: none;
+            }
+            to{
+                color: white;
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">shoaib's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="tuition.html">Tuition</a></li>
+                    <li><a href="about.html"><li>about</a></li>
+                    <li><a href="/"><li>services</a></li>
+                    <li><a href="home.html"><li>home</a></li>
+                    <li><a href="about.html"><li>contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftsection"> Hi ,my name is <span class="purple">shoaib</span>
+                <div>and i am a passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                    <button class="btn"> visit github</button>
+
+                </div>
+
+            </div>
+            <div class="rightsection"><img src="bg.png"></div>
+        </section><hr>
+        <section class="secondsection">
+            <div class="grid1">
+                <div class="box"><a href="tuition.html" class="innerbox">tuition</a></div>
+                <div class="box"><a href="about.html" class="innerbox">about</a></div>
+
+            </div>
+            <div class="grid1">
+                <div class="box"><a href="UTILITIES.html" class="innerbox">utilities</a></div>
+                <div class="box"><a href="achievements.html" class="innerbox">achievements</a></div>
+
+            </div>
+        </section>
+        <!-- <section class="secondsection">
+            <span class="textgray"> what i have done so far</span>
+            <h1>WORK EXPERIENCE</h1>
+             <div class="box"> -->
+                <!-- <div class="vertical">
+                    <img class="image_top" src="bg.PNG">
+                    <div class="verticaltext">
+                        HTML DEVELOPER (2010-2013)
+                    </div>
+                    <div class="verticaldesc"> description abiout the job</div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="bg.PNG">
+                    <div class="verticaltext">
+                        HTML DEVELOPER (2010-2013)
+                    </div>
+                    <div class="verticaldesc"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quibusdam nihil, error maiores obcaecati unde ipsum inventore reprehenderit incidunt dicta voluptatibus ullam ad asperiores, veritatis consequuntur quia explicabo dolorum iusto.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="bg.PNG">
+                    <div class="verticaltext">
+                        another head(2010-2013)
+                    </div>
+                    <div class="verticaldesc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ducimus officiis optio quibusdam alias reprehenderit, quod ipsum dolorum maiores incidunt asperiores dignissimos quisquam culpa delectus. Enim cupiditate inventore accusamus excepturi.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="bg.PNG">
+                    <div class="verticaltext">
+                        another head (2010-2013)
+                    </div>
+                    <div class="verticaldesc"> description abiout the job</div>
+                </div>  -->
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Quick links</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><A href="tuition.html"> TUITION</A></li>
+                    <li><a href="cesccalculator.html"> cesc calculator</a>  </li>
+                    <li><a href="funtime2.html">click me</a>  </li>
+                    <li><a href="ctok.html"> Celsius to kelvin convertors</a>  </li>
+                    <li><a href="ftok.html">Fahrenheit to kelvin convertor</a>  </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="ftoc.html">Fahrenheit to celcius convertor</a>  </li>
+                    <li><a href="kgtog.html">KG to Grams convertors</a>  </li>
+                    <li><a href="kgtoo.html">KG to Ounces convertor</a>  </li>
+                    <li><a href="kgtos.html">KG to Stones convertor</a>  </li>
+                    <li><a href="ktoc.html"> kelvin to celcius convertor</a>  </li>
+                </ul>
+                
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>contact</li>
+                    <li>tuition</li>
+                    <li>home</li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="footer-rights"> www.shoaibali.com </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+        var typed = new Typed('#element', {
+          strings: [" Teacher",'web developer ', ' programmer',' web designer'],
+          typeSpeed: 50,
+        });
+</script>
+</body>
+</html>
